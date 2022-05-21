@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/css/splide.min.css"/>
+
+        <title>JustStreamIt</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <p class="join-msg" id="titre">Just Stream It</p>
+            <div class="join-box">     
+                <p class="join-msg">unlimited tv shows & movies</p>
+                <button class="btn join-btn">join now</button>
+                <button class="btn">sign in</button>     
+            </div>
+        </nav>
+    <div class="top">
+        <a href="main_page.html">JustStreamIt</a>
+        <a class="menu_droite" href="#wrap" id="open">Catégories</a>
+        <a class="menu_droite"href="main_page.html">Accueil</a>           
+    </div>
+    
+    <div class="divOuter" id="mainDiv"> 
+        <h1>Meilleur Film</h1>
+
+        <div class ="divInner" id="main_movie">   
+        </div>
+        
+        
+        <h1>Meilleurs Notes</h1>
+        <button type="button" id="preview_best_rated"> Précédent</button>
+        <button type="button" id="next_best_rated"> Suivant</button>
+        <div class="divInner" id="best_rated">
+        </div>
+
+        <h1>Guerre</h1>
+        <button type="button" id="preview_guerre"> Précédent</button>
+        <button type="button" id="next_guerre"> Suivant</button>
+        <div class="divInner" id="guerre">
+        </div>
+        
+        <h1>Animation</h1>   
+        <button type="button" id="preview_animation"> Précédent</button>
+        <button type="button" id="next_animation"> Suivant</button>      
+        <div class="divInner" id="animation">
+        </div>
+
+        <h1>Drames</h1>
+        <button type="button" id="preview_drames"> Précédent</button>
+        <button type="button" id="next_drames"> Suivant</button>
+        <div class="divInner" id="drames">
+        </div>
+
+    </div>
+   
+    <div id="myModal" class="modal"></div>
+    
+    <script type="text/javascript" src="main.js" defer></script>
+ 
+                     
+</body>
+</html>
